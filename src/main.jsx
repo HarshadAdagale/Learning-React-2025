@@ -1,16 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import Weather from '/Exercises/07/Weather.jsx'
-import UserStatus from "../Exercises/07/UserStatus.jsx";
-import Greetings from "../Exercises/07/Greetings.jsx";
+import StyleCard from "../Exercises/08/StyleCard.jsx";
+import ProfileCard from "../Exercises/08/ProfileCard.jsx";
+import IconComponent from "../Exercises/08/IconComponent.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Weather temperature={22} />
-    <UserStatus isLoggedIn={true} isAdmin={true} />
-    <Greetings timeOfDay="morning" />.
-
+    <StyleCard />
+    <ProfileCard />
+    <IconComponent />
   </StrictMode>,
 )
