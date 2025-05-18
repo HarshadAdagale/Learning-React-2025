@@ -1,17 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import Counter from "../Exercises/09/Counter.jsx";
-import TodoList from "../Exercises/09/TodoList.jsx";
-import Profile from "../Exercises/09/Profile.jsx";
-import ShoppingList from "../Exercises/09/ShoppingList.jsx";
+import BasicEffect from "../Exercises/10/BasicEffect.jsx";
+import CounterEffect from "../Exercises/10/CounterEffect.jsx";
+import FetchDataEffect from "../Exercises/10/FetchDataEffect.jsx";
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Counter />
-    <TodoList />
-    <Profile />
-    <ShoppingList />
+    {/*<BasicEffect />*/}
+    {/*<CounterEffect />*/}
+    <FetchDataEffect />
   </StrictMode>,
 )
