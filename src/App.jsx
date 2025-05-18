@@ -1,5 +1,9 @@
+import Counter from '/Projects/Counter/Counter.jsx'
+
 function App() {
-    return <h1>Hello World</h1>
+    return <>
+            <Counter/>
+            </>
 }
 
 export default App;
