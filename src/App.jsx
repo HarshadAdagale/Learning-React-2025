@@ -3,7 +3,8 @@
 // import Meal from '../Projects/Meals/Meal.jsx';
 // import Calculator from "../Projects/Calculator/Calculator.jsx";
 // import ToggleBGColor from "../Projects/ToggleBGColor/ToggleBGColor.jsx";
-import HiddenSearchBar from "../Projects/Hidden Search Bar/HiddenSearchBar.jsx";
+// import HiddenSearchBar from "../Projects/Hidden Search Bar/HiddenSearchBar.jsx";
+import Testimonials from "../Projects/Testimonials/Testimonials.jsx";
 
 function App() {
     return <>
@@ -12,7 +13,8 @@ function App() {
             {/*< Meal />*/}
             {/*    <Calculator />*/}
             {/*<ToggleBGColor />*/}
-            < HiddenSearchBar />
+            {/*< HiddenSearchBar />*/}
+            < Testimonials />
     </>
 }
 
