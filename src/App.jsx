@@ -5,7 +5,8 @@
 // import ToggleBGColor from "../Projects/ToggleBGColor/ToggleBGColor.jsx";
 // import HiddenSearchBar from "../Projects/Hidden Search Bar/HiddenSearchBar.jsx";
 // import Testimonials from "../Projects/Testimonials/Testimonials.jsx";
-import AccordionApp from "../Projects/Accordions/AccordionApp.jsx";
+// import AccordionApp from "../Projects/Accordions/AccordionApp.jsx";
+import Form from "../Projects/Form/Form.jsx"
 
 function App() {
     return <>
@@ -16,7 +17,8 @@ function App() {
             {/*<ToggleBGColor />*/}
             {/*< HiddenSearchBar />*/}
             {/*< Testimonials />*/}
-            <AccordionApp/>
+            {/*<AccordionApp/>*/}
+            <Form />
     </>
 }
 
