@@ -4,17 +4,19 @@
 // import Calculator from "../Projects/Calculator/Calculator.jsx";
 // import ToggleBGColor from "../Projects/ToggleBGColor/ToggleBGColor.jsx";
 // import HiddenSearchBar from "../Projects/Hidden Search Bar/HiddenSearchBar.jsx";
-import Testimonials from "../Projects/Testimonials/Testimonials.jsx";
+// import Testimonials from "../Projects/Testimonials/Testimonials.jsx";
+import AccordionApp from "../Projects/Accordions/AccordionApp.jsx";
 
 function App() {
     return <>
             {/*<Counter/>*/}
             {/*< Todo />*/}
             {/*< Meal />*/}
-            {/*    <Calculator />*/}
+            {/*<Calculator />*/}
             {/*<ToggleBGColor />*/}
             {/*< HiddenSearchBar />*/}
-            < Testimonials />
+            {/*< Testimonials />*/}
+            <AccordionApp/>
     </>
 }
 
