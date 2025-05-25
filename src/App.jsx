@@ -6,7 +6,8 @@
 // import HiddenSearchBar from "../Projects/Hidden Search Bar/HiddenSearchBar.jsx";
 // import Testimonials from "../Projects/Testimonials/Testimonials.jsx";
 // import AccordionApp from "../Projects/Accordions/AccordionApp.jsx";
-import Form from "../Projects/Form/Form.jsx"
+// import Form from "../Projects/Form/Form.jsx"
+import EComMain from "../ECom/EComMain.jsx";
 
 function App() {
     return <>
@@ -18,7 +19,8 @@ function App() {
             {/*< HiddenSearchBar />*/}
             {/*< Testimonials />*/}
             {/*<AccordionApp/>*/}
-            <Form />
+            {/*<Form />*/}
+            <EComMain/>
     </>
 }
 
